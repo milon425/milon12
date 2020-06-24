@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+
+	/*! margin-top: 20px; */
+	background-image: url(../images/p1.jpg);
+	background-position: no-repeat;
+	background-size: cover;
+	height: 550px;
+	background-position: center;
+	background-color: #3cc81517;
+	background-blend-mode: multiply;
+	padding: 16px 0;
+}
+.container{
+
+	width: 1100px;
+	margin: auto;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+.logo{
+
+	max-width: 20%;
+	flex-basis: 20%;
+}
+.logo h2{
+
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 21px;
+	font-weight: revert;
+}
+.logo h2 span{
+
+	display: block;
+	font-size: 19px;
+	font-weight: lighter;
+}
+nav{
+
+	max-width: 80%;
+	flex-basis: 80%;
+}
+nav ul{
+
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+nav ul li{
+
+	list-style-type: none;
+}
+nav ul li a{
+
+	color: white;
+	font-size: 18px;
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-weight: normal;
+	text-transform: capitalize;
+	border: 2px solid #fff0;
+	border-radius: 30px;
+}
+nav ul li a:hover{
+	border: 2px solid white;
+}
+nav ul li:last-child a{
+	border: 2px solid white;
+}
+.banner-design{
+
+	max-width: 100%;
+	flex-basis: 100%;
+	text-align: center;
+	padding: 155px;
+}
+.banner-design h3{
+
+	color: #fff;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: inherit;
+}
+.banner-design span{
+
+	width: 100px;
+	height: 5px;
+	background: #FB2056;
+	display: block;
+	margin: 16px auto 0;
+}
+.banner-design h1{
+
+	color: white;
+	font-size: 74px;
+	text-transform: uppercase;
+	font-weight: revert;
+	width: ;
+}
+
+.learn-more{
+
+	color: #fff;
+	background: #FB2056;
+	padding: 13px 30px;
+	display: inline-block;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border-radius: 30px;
+}
+.contant{
+
+	text-align: center;
+	padding: 60px;
+	padding-bottom: 160px;
+	color: #90a1a2;
+}
+.contant p{
+
+	font-style: italic;
+	font-size: 14px;
+}
+.contant span{
+
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.event{
+
+	/*! display: inline-block; */
+	overflow: hidden;
+}
+.topic{
+
+	text-align: center;
+	display: block;
+	padding-bottom: 40px;
+}
+.topic h4{
+
+	font-size: 33px;
+	padding: 15px;
+	text-transform: uppercase;
+}
+.topic span{
+    width: 100px;
+	height: 5px;
+	background: #FB2056;
+	display: block;
+	margin: 16px auto 0;
+}
+.about-event{
+
+	margin: auto;
+	width: 700px;
+}
+.col-1{
+
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	float: left;
+}
+.col-1 img{
+
+	width: 300px;
+}
+.col-1 h2{
+
+	font-size: 22px;
+	padding: 12px 0;
+	color: #3c3838;
+}
+.col-1 p{
+
+	font-size: 14px;
+	padding-bottom: 16px;
+	font-style: italic;
+}
+.col-1 span{
+
+	text-transform: full-width;
+	color: #f2420c;
+	text-decoration: none;
+}
+.col-1 span:after {
+	content: ' \2192';
+}
+
+.col-2{
+
+	width: 300px;
+	margin: auto;
+	float: right;
+	text-align: center;
+}
+.col-2 img{
+
+	width: 300px;
+}
+.col-2 h2{
+	font-size: 22px;
+	padding: 12px 0;
+	color: #3c3838;
+}
+.col-2 p{
+	font-size: 14px;
+	padding-bottom: 16px;
+	font-style: italic;
+}
+.col-2 span{
+
+	text-transform: full-width;
+	color: #f2420c;
+}
+.col-2 span:after {
+	content: ' \2192';
+}
+.explore{
+	background-image: url(../images/p2.jpg);
+	padding: 100px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: #8aac6033;
+	background-blend-mode: color-burn;
+	height: 663px;
+}
+.col-1-2{
+
+	flex-basis: 50%;
+	max-width: 50%;
+	color: aliceblue;
+}
+.col-1-2 h1{
+
+	font-size: 70px;
+	line-height: 85px;
+	text-transform: uppercase;
+	padding: 15px 0px;
+}
+.col-1-2 span{
+	width: 70px;
+	height: 3px;
+	background: #FB2056;
+	display: block;
+}
+.col-1-2 p{
+
+	padding: 29px 0px;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+.col-1-2 h5{
+
+}
+.justify-end{
+	justify-content: flex-end;
+}
